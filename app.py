@@ -15,7 +15,7 @@ data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 # Título de la aplicación
 st.title("Reconocimiento de Imágenes")
 st.markdown("### Usando un modelo entrenado en Teachable Machine")
-st.markdown("Puedes usar esta app para identificar diferentes gestos.")
+st.markdown("Puedes usar esta app para identificar el gesto de palma o el gesto de puño")
 
 # Cambia la imagen a una nueva que prefieras
 image = Image.open('nueva_imagen.jpg')  # Cambia 'nueva_imagen.jpg' por el nombre de tu nueva imagen
